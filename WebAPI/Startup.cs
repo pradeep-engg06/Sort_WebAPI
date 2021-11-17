@@ -26,9 +26,6 @@ namespace WebAPI
         {
 
             services.AddControllers();
-
-            services.AddHealthChecks();
-           
             services.ConfigureCustomServices();
             services.ConfigureSwagger();
            
@@ -40,10 +37,10 @@ namespace WebAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+              
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -53,7 +50,6 @@ namespace WebAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHealthChecks("/health");
             });
         }
     }
