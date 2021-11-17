@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Service", "API.Service\API.Service.csproj", "{9EFEDF61-5985-41FA-A6FA-51A41B145D19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Test", "API.Test\API.Test.csproj", "{3A39CF22-65C3-4483-A9A0-1C4EBEF3DE85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{11402C7E-3DA6-44FC-9D74-471AB6372D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFEDF61-5985-41FA-A6FA-51A41B145D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFEDF61-5985-41FA-A6FA-51A41B145D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFEDF61-5985-41FA-A6FA-51A41B145D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFEDF61-5985-41FA-A6FA-51A41B145D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A39CF22-65C3-4483-A9A0-1C4EBEF3DE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A39CF22-65C3-4483-A9A0-1C4EBEF3DE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A39CF22-65C3-4483-A9A0-1C4EBEF3DE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A39CF22-65C3-4483-A9A0-1C4EBEF3DE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11402C7E-3DA6-44FC-9D74-471AB6372D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11402C7E-3DA6-44FC-9D74-471AB6372D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11402C7E-3DA6-44FC-9D74-471AB6372D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11402C7E-3DA6-44FC-9D74-471AB6372D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C491359-7857-4471-8C4A-8B91FBAB5254}
+	EndGlobalSection
+EndGlobal
